@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,400&display=swap');
 
 body {
- background: url(/CV/img/Fon.jpg);
+ background: url(/img/Fon.jpg);
  color: #0f141e;
  background-size: 100%;
 
@@ -43,12 +43,13 @@ a:visited {
 
 .info {
     display: flex;
+    margin-top: 30px;
     margin-bottom: 15px;
     padding: 10px;
     height: 250px;
 }
 
-@media (max-width: 750px) {
+@media (max-width: 575px) {
     .info {
         text-align: center;
         display: block;
@@ -64,6 +65,9 @@ a:visited {
     margin-bottom: 40px;
 }
 
+.name {
+    margin-left: 40px;
+}
 /*.info-text a {
 margin-bottom: 20px;
 }*/
