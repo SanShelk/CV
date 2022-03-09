@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,400&display=swap');
 
 body {
- background: url(/CV/img/Fon.jpg);
+ background: url(/img/Fon.jpg);
  color: #0f141e;
  background-size: 100%;
 
@@ -14,7 +14,6 @@ body {
 a {
 color: black;
 text-decoration: underline;
-margin-bottom: 30px;
 
 }
 
@@ -31,21 +30,24 @@ a:visited {
 }
 
 .avatar {
+    height: 100%;
+    margin-left: 10px;
     width: 180px;
     border-radius: 35px;
     box-shadow: 8px 8px 15px 4px rgba(0, 0, 0, 0.25);
 }
 .contener {
-    max-width: 850px;
+    max-width: 1250px;
     margin: auto;
     padding-top: 30px;
     }
 
 .info {
     display: flex;
+    /* box-sizing: border-box;*/
     margin-bottom: 15px;
     padding: 10px;
-    height: 250px;
+    min-height: 250px;
 }
 
 @media (max-width: 750px) {
@@ -62,11 +64,17 @@ a:visited {
 .info-text {
     margin-left: 40px;
     margin-bottom: 40px;
+    padding-left: 10px;
+    padding-bottom: 20px;
 }
 
 /*.info-text a {
 margin-bottom: 20px;
 }*/
+.info-text a {
+margin-top: 10px;
+margin-bottom: 30px;
+}
 
 .info h2 {
     color: slategray;
@@ -122,6 +130,8 @@ margin-bottom: 20px;
     justify-content: flex-end;
     align-items: center;
     list-style: none;
+    width: 100%;
+	box-sizing: border-box;
 }
 
 .nav-link {
