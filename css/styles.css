@@ -127,11 +127,12 @@ margin-bottom: 30px;
 
 .nav-list {
     display: flex;
-    justify-content: flex-end;
+    /* justify-content: flex-start */
     align-items: center;
     list-style: none;
     width: 100%;
 	box-sizing: border-box;
+    margin-left: 200px;
 }
 
 .nav-link {
