@@ -127,12 +127,19 @@ margin-bottom: 30px;
 
 .nav-list {
     display: flex;
-    /* justify-content: flex-start */
+    justify-content: flex-end;
     align-items: center;
     list-style: none;
     width: 100%;
 	box-sizing: border-box;
-    margin-left: 200px;
+    
+    
+}
+
+@media (max-width: 575px){
+    .nav-list {
+        display: block;
+    }
 }
 
 .nav-link {
